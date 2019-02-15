@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="MOVIES">
+        <menu>
+        <item
+            android:id="@+id/popularmovies"
+            android:icon="@drawable/yt"
+            android:title="Popular" />
+        <item
+            android:id="@+id/topratedmovies"
+            android:icon="@drawable/fa"
+            android:title="Top Rated" />
+        <item
+            android:id="@+id/upcomingmovies"
+            android:icon="@drawable/co"
+            android:title="Upcoming" />
+
+            </menu>
+    </item>
+
+
+    <item android:title="TV SERIES">
+        <menu>
+            <item
+                android:id="@+id/populartvseries"
+                android:icon="@drawable/fl"
+                android:title="Popular" />
+            <item
+                android:id="@+id/topratedtvseries"
+                android:icon="@drawable/cf"
+                android:title="Top Rated" />
+            <item
+                android:id="@+id/airingtoday"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Airing Today" />
+        </menu>
+    </item>
+
+</menu>

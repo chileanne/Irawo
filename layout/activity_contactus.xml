@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anthony.ekpei.irawo.Contactus"
+   >
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayouts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/main_pageappbar"
+            layout="@layout/appbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/appBarLayouts"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email adress"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kindly post your comment"
+        android:inputType="textMultiLine"
+       />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    </LinearLayout>
+
+</RelativeLayout>
